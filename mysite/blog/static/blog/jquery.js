@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#homesplash_text_container').hide(0).delay(9500).show('slow');
+	$('#homesplash_text_container').hide(0).delay(15000).fadeIn();
 })
 
 

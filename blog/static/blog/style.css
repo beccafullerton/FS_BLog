@@ -1,0 +1,236 @@
+* {
+	font-size: 12px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body {
+}
+.container-fluid {
+	max-width: 3500px;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* NAV */
+.navbar {
+	font-size: 3em;
+	border: none;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+	border-color: black;
+	height: 1.25em;
+	overflow: hidden;
+	margin-bottom: 3em;
+}
+.navbar a {
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration:none;
+	bottom:0;
+	padding: .5em;
+	color: black;
+}
+.blue_btn {
+	background-color: rgba(8, 137, 187, 1);
+	border: solid;
+	border-color: rgba(8, 137, 187, 1);
+	font-family: helvetica ,'avant garde', sans-serif;
+	padding: 0 2em;
+	color: white;
+}
+.blue_btn:visited {
+}
+.blue_btn:hover {
+	background-color: rgba(6, 101, 138, 1);
+	border: solid;
+	color: white;
+	border-color: rgba(6, 101, 138, 1);
+}
+.home_arrow {
+	height: 80%;
+	width: auto;
+}
+.home_arrow:visited {
+}
+.home_arrow:hover {
+	height: 80%;
+	width: auto;
+}
+
+/* INDEX */
+#home_splash {
+	background-color: black;
+}
+#blog_videoScribe_container {
+	overflow: hidden;
+	align-content: center;
+	background-color: black;
+}
+#homesplash_text_container {
+	padding:  0 10% 10% 10%;
+	margin: 30% 0;
+	height: auto;
+}
+.homesplash_text {
+	color: white;
+	font-size: 2em;
+	text-align: justify;
+	font-family: helvetica ,'avant garde', sans-serif;
+	margin-bottom: 1em;
+}
+#homesplash_account {
+	font-size: 1.5em;
+	font-family: helvetica ,'avant garde', sans-serif;
+	color: white;
+	margin-bottom: .5em;
+}
+#join_btn {
+	font-size: 1.5em;
+	margin-bottom: 3em;
+	float: left;
+	margin-right: 1em;
+}
+#login_btn {
+	font-size: 1.5em;
+	font-family: helvetica ,'avant garde', sans-serif;
+	padding: 0 2em;
+	color: white;
+	border: solid;
+	border-color: white;
+}
+#login_btn:visited {
+}
+#login_btn:hover {
+	background-color: rgba(58,58,58,1);
+	border: solid;
+	border-color: rgba(58,58,58,1);
+}
+#home_content {
+	padding-bottom: 100vh;
+	background-color: white;
+}
+
+/* POST LIST && POST DETAIL */
+#posts_container {
+	margin-top: 2em;
+}
+.post {
+	border-left: 1px solid black;
+	padding-left: 4em;
+	padding-bottom: 5em;
+}
+.post_date_container {
+	padding-right: 4em;
+}
+.post_date {
+	font-size: 2em;
+	font-family: helvetica ,'avant garde', sans-serif;
+	color: rgba(8, 137, 187, 1);
+	text-align: left;
+	padding-top: .25em;
+	border-top: 1px solid black;
+}
+.edit_date {
+	font-size: 1em;
+	font-family: georgia, serif;
+	margin-top: -1em;
+}
+.post_title {
+	display: inline-block;
+	height: 2em;
+	font-size: 3em;
+	font-family: helvetica ,'avant garde', sans-serif;
+	color: rgba(8, 137, 187, 1);
+	font-weight: bold;
+	margin-bottom: -.5em;
+	text-decoration: none;
+}
+.post_title_equalizer {
+	display: block;
+	height: 2em;
+	font-size: 3em;
+	margin-bottom: -.5em;
+}
+.post_content {
+	padding-top: .5em;
+	border-top: 1px solid black;
+	padding-bottom: 2em;
+	font-family: georgia, serif;
+}
+.post_author {
+	color: rgba(8, 137, 187, 1);
+	font-family: helvetica ,'avant garde', sans-serif;
+}
+.author_list {
+	margin-top: 1.5em;
+}
+
+/* POST EDITS */
+.post_modification {
+	font-family: helvetica ,'avant garde', sans-serif;
+	color: rgba(8, 137, 187, 1);
+}
+label {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+#edit_post input, .title_entry {
+	height: 2em;
+	font-size: 1.5em;
+	width: 25%;
+	color: black;
+	border: 1px solid  #aeaeae;
+	margin: 0 100% 3em 0%;
+}
+#edit_post textarea, .post_content_entry {
+	clear:both;
+	width: 75%;
+	margin-right: 25%;
+	height: 25em;
+	color: black;
+	border: 1px solid #aeaeae;
+}
+#edit_post input.submit_btn, .submit_btn {
+	color: white;
+	font-size: 1.5em;
+	margin-top: 2em;
+	border-radius: 5px
+}
+#post_delete {
+	font-family: helvetica ,'avant garde', sans-serif;
+	color: rgba(8, 137, 187, 1);
+	font-size: 1.5em;
+}
+#post_delete_dialogue {
+	font-size: 1.5em;
+}
+.postModifier_glyphs {
+	height:3em;
+}
+.postModifier_glyphs img {
+	height:100%;
+	width:auto;
+}
+#delete_glyph {
+	float:left;
+}
+#edit_glyph {
+	float: right;
+	height: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

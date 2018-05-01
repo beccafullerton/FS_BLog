@@ -15,15 +15,13 @@ Assuming that you have Django installed and have followed [the instructions](htt
 + Register & Login
 + Create, Read, Update and Delete a new blog post (title, body)
 + Viewing posts on a front page
++ The ability to view posts filtered by author
 + Responsive design using Bootstrap
 
 ## Notes
 
 This site can also be viewed at [rebeccakempe.com](rebeccakempe.com)*
 
-The AJAX used does technically add new posts to the front page, but it does so in an admittedly hacky way. I plan to keep working on it, but this is the best I could figure out this weekend.
+This does technically use ajax to add new posts to the front page, but it does so in an incredibly hacky way. After about a 15 minute conversation with a programmer I work with, I was able to do a much better job - which can be viewed [here](https://github.com/beccafullerton/FS_BLOG2). I also realized that my use of buil-in views was impeding my ability to manipulate some of the info in the way I wanted, so I've changed some of that as well.
 
 
-
-
-* probably by the time you're reading this, that will be true. It's up, but I'm trying to troubleshoot an intermittent nginx-related gateway issue. I don't have a lot of experience with server configuration, and I didn't want to violate the rules by asking for help. That said, now that this is submitted, I'm going to see if someone at work can help me figure that out.
